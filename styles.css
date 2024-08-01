@@ -19,7 +19,7 @@ main {
 .sidebar-container {
   width: 350px;
   height: 100%;
-  background: #F2F4F7;
+  background: #f2f4f7;
 }
 
 .main-content-wrapper {
@@ -49,6 +49,7 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .top-menu-wrapper {
@@ -63,4 +64,6 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0 15px;
+  gap: 10px;
 }
