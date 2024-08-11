@@ -1,0 +1,25 @@
+.top-nav{
+    /* border: 2px solid black; */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    left: 280px;
+    height: 100px;
+    width: 100%;
+    
+}
+.h1-container{
+    /* border: 2px solid brown; */
+    height: 50%;
+    margin-top: 2%;
+}
+.right-wrapper{
+    /* border: 2px solid red; */
+    height: 60%;
+    width: 400px;
+    margin-top: 1%;
+    margin-left: 53%;
+    display: flex;
+    gap: 25px;
+}
