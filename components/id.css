@@ -1,0 +1,48 @@
+/* Profile and all */
+.personal-info-container{
+    /* align-self: flex-start; */
+    /* display: flex; */
+    /* position: absolute; */
+    border: 2px solid #32ADE6;
+    width: 50%;
+    /* top: 1%; */
+    /* left: 1%; */
+    border-radius: 10px;
+    height: 55%;
+
+
+}
+.header-design{
+    height: 70px;
+    width: 100%;
+    border: 2px solid #32ADE6;
+    background-color: #CFE2FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.details-container{
+    height: 80px;
+    /* border: 2px solid black; */
+    width: 80%;
+    /* margin-top: 20%; */
+    height: calc(100% - 70px);
+    margin-left: 8px;
+    margin-top:3px ;
+}
+.profile-container{
+    height:60px;
+    width: 60px;
+    /* margin-left:160px ; */
+    border-radius:50% ;
+    background-color: #D9D9D9;
+    /* display: flex; */
+    /* margin-left:130px ; */
+    align-self: center;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
