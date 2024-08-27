@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* main  */
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+/* Left nav and it's content */
+.left-nav{
+    height: 100vh;
+    width: 240px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(52,202,253,.5);
+    
+    /* border: 2px solid black; */
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid red; */
+    background: url(/amity_webapp/assets/amity-logo.svg);
+    background-size: cover;
+    margin-left: 45px;
+
+}
+.top-wrapper{
+    /* border: 2px solid blue; */
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+.bottom-wrapper{
+    /* border: 2px solid green; */
+    height: 15.2%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 7px;
+    font-weight: bold;
+  
+}
+.top-nav{
+    /* border: 2px solid black; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    left: 280px;
+    height: 100px;
+    width: 100%;
+    column-gap: 850px;
+    
+}
+.topic{
+    /* border: 2px solid brown; */
+    display: flex;
+    padding-top: 10px;  
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 10px;
+}
+.right-wrapper{
+    /* border: 2px solid red; */
+
+    height: 60%;
+    width: 200px;
+    display: flex;
+    gap: 25px;
+    padding-top: 10px;
+
+}
+.search{
+background-color: #6C95FF;
+border-width: 1px;
+text-decoration: none;
+color: white;
+border-color: #6C95FF;
+border-radius: 5px;
+width: 400px;
+height: 30px;
+padding-left: 20px;
+display: flex;
+column-gap:150px;
+
+
+}
+input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6C95FF;
+    background-color: #6C95FF;
+    border-radius:5px ;
+    
+}
+ .middle-cont{
+    display: flex;
+    flex-direction: row;
+    column-gap: 260px;
+    padding-top: 40px;
+ }
+ .heading{
+    padding-left: 100px;
+ }
+ 
+ .gap{
+    padding-left: 40px;
+ }
+ .third{
+    background-color: rgb(207, 226, 255, .9);
+    width: 200px;
+    height: 30px;
+    border-width: 1.5px;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+ .first{
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    border-width: 1.5px;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+ .second{
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    border-width: 1.5px;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+ .top-cont{
+    padding-left: 350px;
+ }
+ .link{
+    font-size: medium;
+    font-weight: 400;
+    padding-top: 10px;
+ }
+ .page{
+    font-size: x-large;
+    padding-top: 20px;
+    font-weight: 500;
+ }
+ .bottom-cont{
+    display: flex;
+    flex-direction: column;
+    padding-top:30px;
+ }
+.main-text{
+    font-size:x-large;
+    font-weight:500;
+}
+.text{
+    padding-top:15px;
+}
+.number2{
+padding-top: 15px;    
+}
+.gmail{
+    padding-top: 15px;
+}

@@ -19,15 +19,23 @@
         a {
             text-decoration: none;
             color: black;
-            background-color: rgb(52, 202, 253, .3);
             display: flex;
             align-items: center;
             gap: 20px;
             height: 30px;
             width: 169px;
-            border-color: rgb(52, 202, 253);
-            font-size: 13px;
+            font-size: 15px;
 
+        }
+        .teacher{
+                  display: flex;
+            background-color:rgb(207, 226, 255,.9);
+            border-radius: 5px;
+            width: 160px;
+            height: 40px;
+            border-width: 2px;
+            border-style: solid;
+            align-items: center;
         }
 
         .right-wrapper i {
@@ -58,9 +66,10 @@
             <div class="top-wrapper" class="bg-primary.bg-gradient">
                 <a href="#"><i class="bi bi-house-door"></i> Dashboard</a>
                 <a href="#"><i class="bi bi-watch"></i> Time Table</a>
-                <a href="#"><i class="bi bi-person"></i> Teachers</a>
+                <div class="teacher">
+                    <a href="#"><i class="bi bi-person"></i> Teachers</a>
+                </div>
                 <!-- <a href="#">Eca-Routine</a> -->
-                <a href="#"><i class="bi bi-columns"></i> Routine</a>
                 <a href="#"><i class="bi bi-book"></i> Class Notes</a>
                 <a href="#"><i class="bi bi-bus-front-fill"></i> Bus </a>
                 <a href="#"><i class="bi bi-geo-alt"></i> Location</a>
@@ -74,8 +83,8 @@
         <!-- Top nav -->
         <div class="body-part">
             <div class="top-nav">
-                <div class="h1-container">
-                    <h1>Teachers</h1>
+                <div class="topic">
+                    Teachers
 
                 </div>
                 <div class="right-wrapper">

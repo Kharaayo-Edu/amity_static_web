@@ -14,19 +14,23 @@ main{
 /* Left nav and it's content */
 .left-nav{
     height: 100vh;
-    width: 280px;
+    width: 260px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(52,202,253,.5);
     
     /* border: 2px solid black; */
 
 }
 .logo-container{
-    height: 98px;
-    width: 98px;
-    top: 15px;
-    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 90px;
     /* border: 2px solid red; */
     background: url(/amity_webapp/assets/amity-logo.svg);
     background-size: cover;
+    margin-left: 45px;
 
 }
 .top-wrapper{
@@ -52,11 +56,8 @@ a{
     text-decoration: none;
     display: block;
     padding: 10px;
-    border: 2px solid ;
-    background-color: black;
     margin: 7px;
-    border-radius: 6px;
-    background-color: cyan;
+    font-weight: bold;
   
 }
 .top-nav{
@@ -68,25 +69,26 @@ a{
     left: 280px;
     height: 100px;
     width: 100%;
+    column-gap: 700px;
     
 }
-.h1-container{
+.topic{
     /* border: 2px solid brown; */
-    height: 6%;
-    margin-top: 1%;
-    padding-left: 5px;
     display: flex;
-    font-family:Arial;   
+    padding-top: 10px;  
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 10px;
 }
 .right-wrapper{
     /* border: 2px solid red; */
 
     height: 60%;
     width: 200px;
-    margin-top: 1%;
-    margin-left: 70%;
     display: flex;
     gap: 25px;
+    padding-top: 10px;
 
 }
  

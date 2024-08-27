@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* main  */
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Left nav and it's content */
+.left-nav {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(52,202,253);
+}
+.vr-line {
+    border-left: 2px solid rgb(0, 122, 225, .4);
+    height: 1150px;
+}
+main{
+    gap:200px;
+}
+
+/* border: 2px solid black; */
+
+
+.logo-container {
+    height: 98px;
+    width: 98px;
+    top: 15px;
+    margin-left: 40px;
+    /* border: 2px solid red; */
+    background: url(/amity_webapp/assets/amity-logo.svg);
+    background-size: cover;
+
+}
+
+.top-wrapper {
+    /* border: 2px solid blue; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.bottom-wrapper {
+    /* border: 2px solid green; */
+    height: 15.2%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 7px;
+    font-weight: bold;
+
+}
+
+.top-nav {
+    /* border: 2px solid black; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    row-gap: 800px;
+    height: 100px;
+    width: 1200px;
+    column-gap: 845px;
+
+}
+
+.h2-container {
+    /* border: 2px solid brown; */
+    height: 6%;
+    padding-left: 30px;
+    display: flex;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.right-wrapper {
+    /* border: 2px solid red; */
+
+    height: 60%;
+    width: 200px;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.notes {
+    display: flex;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(52, 202, 253);
+    border-radius: 5px;
+
+
+}
+
+.card1-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+
+/* .card1{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(52,202,253);
+    
+}
+.card2{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(52,202,253);
+    margin-left: 90px;
+}
+.card3{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(52,202,253);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+    .card4{
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(52,202,253);
+        margin-left: 90px;
+        margin-top: 30px;
+    } */
+.card2-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.hr-line {
+    margin-top: 50px;
+    width: 800px;
+}
+
+.card3-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* .card5{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(52,202,253);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.card{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(52,202,253);
+    margin-left: 90px;
+    margin-top: 30px;
+} */
+.yesterday {
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+.hr-2 {
+        margin-top: 50px;
+    width: 800px;
+}
+
+.all-notes{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.filter {
+    display: flex;
+    width: 600px;
+    padding-top: 20px;
+    height: 45px;
+}
+
+.today {
+    display: flex;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.option {
+    background-color: rgb(0, 122, 255, .3);
+    height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    width: 130px;
+
+}
+
+.click-me {
+    display: flex;
+    flex-direction: row;
+    border-width: 1.5px;
+    border-style: solid;
+    height: 35px;
+
+}
+
+.middle-part {
+    padding-left: 40px;
+}
+
+#date {
+    width: 130px;
+}
+
+#subjects {
+    width: 130px;
+}
+
+#teachers {
+    width: 130px;
+}
+
+.upper-body {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+
+}
+
+.date1 {
+    font-size: small;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.lower-body {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+
+}
+
+.main-body {
+    padding-bottom: 100px;
+}
